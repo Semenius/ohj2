@@ -36,10 +36,21 @@ Rekisteri on kehitetty seuraamaan omaa kiekkovarastoani ja mahdollistamaan hukku
 
 ## 1.3 Tallennustiedostojen muoto
 
-**käyttäjät.dat**
-Kirjautumisen yhteydessä olevat käyttäjätieto, joka johdattaa 
+**kayttajat.dat**  
+Kirjautumisen yhteydessä olevat käyttäjätieto, joka johdattaa kiekkorekisteriin tai uuden luonti.
+
+> ID  | Nimi      | *(Salasana?)*  
+> 1   | Thomas    | salasana123  
+> 2   | Käyttäjä1 | asdfqwer1!  
+> 3   | Käyttäjä2 | p422w0rd  
 
 **kiekot.dat**  
+Kiekot ja niiden kaikki tiedot listattuna.
+
+> ID  | Valmistaja | Malli | Muovi  | Paino | Lentotaulukko | Kategoria | Vakaus  | Sijainti  | Väri      | Lisäinfo  
+> 1   | Axiom      | Crave | Proton | 169g  | 6.5, 5, -1, 1 | Fairway   | Suora   | Bägi      | Punainen  | Vesimelon stamp  
+> 2   | Discmania  | P2    | D      | 175g  | 2, 3, 0, 1    | Putter    | Suora   | Varasto   | Valkoinen |  
+
 
 # 2. Ohjelman käyttö
 
