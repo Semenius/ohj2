@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="581.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="harjoitustyo.KiekkorekisteriGUIController">
+   <bottom>
+      <ButtonBar prefHeight="40.0" prefWidth="645.0" BorderPane.alignment="CENTER">
+        <buttons>
+          <Button mnemonicParsing="false" text="Lisää kiekko" />
+            <Button mnemonicParsing="false" text="Tallenna" />
+            <Button mnemonicParsing="false" text="Sulje" />
+        </buttons>
+         <padding>
+            <Insets right="10.0" />
+         </padding>
+      </ButtonBar>
+   </bottom>
+   <center>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TextField layoutX="26.0" layoutY="14.0" text="Tekstihaku" />
+                  <SplitMenuButton layoutX="25.0" layoutY="49.0" minWidth="150.0" mnemonicParsing="false" text="Valmistaja" textAlignment="RIGHT">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Axiom" />
+                      <MenuItem mnemonicParsing="false" text="Discmania" />
+                        <MenuItem mnemonicParsing="false" text="Discraft" />
+                        <MenuItem mnemonicParsing="false" text="Dynamic Discs" />
+                        <MenuItem mnemonicParsing="false" text="Innova" />
+                        <MenuItem mnemonicParsing="false" text="Kastaplast" />
+                        <MenuItem mnemonicParsing="false" text="Latitude 64" />
+                        <MenuItem mnemonicParsing="false" text="Legacy" />
+                        <MenuItem mnemonicParsing="false" text="Loft" />
+                        <MenuItem mnemonicParsing="false" text="MVP" />
+                        <MenuItem mnemonicParsing="false" text="Prodigy" />
+                        <MenuItem mnemonicParsing="false" text="Prodiscus" />
+                        <MenuItem mnemonicParsing="false" text="Streamline" />
+                        <MenuItem mnemonicParsing="false" text="Viking" />
+                        <MenuItem mnemonicParsing="false" text="Westside" />
+                    </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton layoutX="25.0" layoutY="83.0" minWidth="150.0" mnemonicParsing="false" text="Vakaus" textAlignment="RIGHT">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Ali" />
+                        <MenuItem mnemonicParsing="false" text="Vakaa" />
+                        <MenuItem mnemonicParsing="false" text="Yliakaa" />
+                     </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton layoutX="25.0" layoutY="120.0" minWidth="150.0" mnemonicParsing="false" text="Kategoria" textAlignment="RIGHT">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Draiver" />
+                        <MenuItem mnemonicParsing="false" text="Fairway" />
+                        <MenuItem mnemonicParsing="false" text="Midrange" />
+                        <MenuItem mnemonicParsing="false" text="Putter" />
+                     </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton layoutX="25.0" layoutY="155.0" minWidth="150.0" mnemonicParsing="false" text="Sijainti" textAlignment="RIGHT">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Bägi" />
+                        <MenuItem mnemonicParsing="false" text="Varasto" />
+                        <MenuItem mnemonicParsing="false" text="Hukattu" />
+                        <MenuItem mnemonicParsing="false" text="Myyty" />
+                     </items>
+                  </SplitMenuButton>
+               </children>
+            </Pane>
+            <ListView prefHeight="516.0" prefWidth="265.0" />
+            <VBox prefHeight="516.0" prefWidth="257.0">
+               <children>
+                  <Label text="Valmistaja">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Malli">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Muovi">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Paino">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Nopeus">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Liito">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Turn">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Fade">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Kategoria">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Vakaus">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Sijainti">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Väri">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Lisätietoa">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Tiedosto">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="Avaa" />
+              <MenuItem mnemonicParsing="false" text="Tallenna" />
+                  <MenuItem mnemonicParsing="false" text="Kirjaudu ulos" />
+                  <MenuItem mnemonicParsing="false" text="Sulje" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Muokkaa">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Lisää kiekko" />
+                  <MenuItem mnemonicParsing="false" text="Lisää valmistaja" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Apua">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Ohjeet" />
+                  <MenuItem mnemonicParsing="false" text="Versio" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

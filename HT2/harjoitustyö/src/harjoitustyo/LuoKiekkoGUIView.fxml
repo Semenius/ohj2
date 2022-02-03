@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox />
+            <ButtonBar prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                <Button defaultButton="true" mnemonicParsing="false" text="Valmis" />
+                  <Button cancelButton="true" mnemonicParsing="false" text="Peruuta" />
+              </buttons>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </ButtonBar>
+         </children>
+      </VBox>
+   </bottom>
+   <center>
+      <ScrollPane fitToWidth="true" pannable="true" BorderPane.alignment="CENTER">
+         <content>
+            <GridPane hgap="10.0" prefWidth="242.0">
+               <columnConstraints>
+                  <ColumnConstraints fillWidth="false" halignment="RIGHT" hgrow="NEVER" minWidth="10.0" />
+                  <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label text="Valmistaja" />
+                  <Label text="Malli" GridPane.rowIndex="1" />
+                  <Label text="Muovi" GridPane.rowIndex="2" />
+                  <Label text="Paino" GridPane.rowIndex="3" />
+                  <Label text="Nopeus" GridPane.rowIndex="4" />
+                  <Label text="Liito" GridPane.rowIndex="5" />
+                  <Label text="Turn" GridPane.rowIndex="6" />
+                  <Label text="Fade" GridPane.rowIndex="7" />
+                  <Label text="Kategoria" GridPane.rowIndex="8" />
+                  <Label text="Vakaus" GridPane.rowIndex="9" />
+                  <Label text="Sijainti" GridPane.rowIndex="10" />
+                  <Label text="Väri" GridPane.rowIndex="11" />
+                  <Label text="Lisätietoa" GridPane.rowIndex="12" />
+                  <SplitMenuButton contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="Valitse" GridPane.columnIndex="1">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Axiom" />
+                        <MenuItem mnemonicParsing="false" text="Discmania" />
+                        <MenuItem mnemonicParsing="false" text="Discraft" />
+                        <MenuItem mnemonicParsing="false" text="Dynamic Discs" />
+                        <MenuItem mnemonicParsing="false" text="Innova" />
+                        <MenuItem mnemonicParsing="false" text="Kastaplast" />
+                        <MenuItem mnemonicParsing="false" text="Latitude 64" />
+                        <MenuItem mnemonicParsing="false" text="Legacy" />
+                        <MenuItem mnemonicParsing="false" text="Loft" />
+                        <MenuItem mnemonicParsing="false" text="MVP" />
+                        <MenuItem mnemonicParsing="false" text="Prodigy" />
+                        <MenuItem mnemonicParsing="false" text="Prodiscus" />
+                        <MenuItem mnemonicParsing="false" text="Streamline" />
+                        <MenuItem mnemonicParsing="false" text="Viking" />
+                        <MenuItem mnemonicParsing="false" text="Westside" />
+                    </items>
+                  </SplitMenuButton>
+                  <TextField text="Kirjoita tähän" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" />
+                  <TextField text="Kirjoita tähän" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" />
+                  <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField text="2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField text="2" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField text="0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <TextField layoutX="84.0" layoutY="188.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <SplitMenuButton contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="Valitse" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Draiver" />
+                        <MenuItem mnemonicParsing="false" text="Fairway" />
+                        <MenuItem mnemonicParsing="false" text="Midrange" />
+                        <MenuItem mnemonicParsing="false" text="Putter" />
+                     </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="Valitse" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Alivakaa" />
+                        <MenuItem mnemonicParsing="false" text="Vakaa" />
+                        <MenuItem mnemonicParsing="false" text="Ylivakaa" />
+                     </items>
+                  </SplitMenuButton>
+                  <SplitMenuButton contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="Valitse" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Bägi" />
+                        <MenuItem mnemonicParsing="false" text="Varasto" />
+                        <MenuItem mnemonicParsing="false" text="Hukattu" />
+                        <MenuItem mnemonicParsing="false" text="Myyty" />
+                     </items>
+                  </SplitMenuButton>
+                  <TextField text="Väri" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                  <TextField GridPane.columnIndex="1" GridPane.rowIndex="12" />
+               </children>
+               <opaqueInsets>
+                  <Insets left="10.0" top="10.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </GridPane>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>
