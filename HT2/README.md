@@ -67,17 +67,17 @@ Ohjelma avataan joko pikakuvakkeella tai komentoriviltä komennolla
 
 Ohjelman käynnistyessä tulee esiin vastaavanlainen näkymä, josta dropdown menulla valitaan käyttäjä. Defaultina tarjoaa ensinmäistä luotua kokoelmaa:
 
-![Etusivun kuva](HT2/kuvat/loginMenu.png)
+![Etusivun kuva](kuvat/loginMenu.png)
 
 Tästä menusta on mahdollista lisätä myös uusi kokoelma uudelle käyttäjälle.
 
-![Kokoelma lisäys](HT2/kuvat/luoUser.png)
+![Kokoelma lisäys](kuvat/luoUser.png)
 
 ## 2.2 Pääikkuna
 
 Päädyttyä pääikkunaan tulee esiin vastaavanlainen kuva
 
-![Päämenu](HT2/kuvat/mainMenu.png)
+![Päämenu](kuvat/mainMenu.png)
 
 ### 2.2.1 Hakeminen
 
@@ -103,9 +103,9 @@ Tämä sisältää perus tallenna, *tulosta?* , kirjaudu ulos ja sulje painikkee
 
 Sisältää lisää kiekko, lisää valmistaja.
 
-![LuoKiekko](HT2/kuvat/luoKiekko.png)
+![LuoKiekko](kuvat/luoKiekko.png)
 
-![LuoValmistaja](HT2/kuvat/luoValmistaja.png)
+![LuoValmistaja](kuvat/luoValmistaja.png)
 
 ### 2.3.2 Apua
 
